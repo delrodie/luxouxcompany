@@ -1,0 +1,267 @@
+{% extends 'template_layout.html.twig' %}
+{% block title %}{% endblock %}
+{% block body %}
+	<section class="slider-area">
+		<div class="main-slider owl-carousel owl-theme">
+			<div class="main-slider-item slider-item-bg-1">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="slider-text">
+								<span>Champagnes</span>
+								<h1>Yves louvet</h1>
+								<a class="default-btn" href="#">Voir la collection</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-slider-item slider-item-bg-2">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="slider-text">
+								<span>Vins</span>
+								<h1>Château du Tertre</h1>
+								<p>Bordeaux | moelleux</p>
+								<a class="default-btn" href="#">Voir la collection</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-slider-item slider-item-bg-3">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="slider-text">
+								<span>Vins</span>
+								<h1>Château du Sablet</h1>
+								<p>Bordeaux</p>
+								<a class="default-btn" href="#">Voir la collection</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="support-wrap">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 offset-lg-2 offset-md-3">
+						<div class="single-support active">
+							<i class="flaticon-customer-service"></i>
+							<div class="support-text">
+								<h3>Service client 24/7</h3>
+								<p> +225 51 91 91 65 <br> +225 69 69 34 19</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="single-support delivery">
+							<img src="ressources/images/delivery.png" alt="" width="50" class="float-left">
+							<div class="support-text">
+								<h3>Livraison</h3>
+								<p>Livraison partout en Côte d'Ivoire<br>.</p>
+							</div>
+						</div>
+					</div>
+					<!--<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+						<div class="single-support">
+							<i class="flaticon-time-left"></i>
+							<div class="support-text">
+								<h3>Free Shipping & Return</h3>
+								<p>Lorem ipsum dolor sit, consectr adipiscing elit, sed do  tempor.</p>
+							</div>
+						</div>
+					</div>-->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="since-area ptb-100">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="since-img">
+						<img src="{{ absolute_url(asset('assets/images/logo.png')) }}" alt="Logo La Maison Luxoux Company" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="since-text">
+						<h2>La Maison Luxoux Company</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<ul class="since-list">
+							<li>
+								<i class="fa fa-angle-double-right"></i>
+								More Than 20 Years of Experience
+							</li>
+							<li>
+								<i class="fa fa-angle-double-right"></i>
+								High Quality Products
+							</li>
+							<li>
+								<i class="fa fa-angle-double-right"></i>
+								Delivery support
+							</li>
+							<li>
+								<i class="fa fa-angle-double-right"></i>
+								Quick Response
+							</li>
+						</ul>
+						<a class="default-btn" href="#">&raquo; Lire plus</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="our-product-area ptb-100">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="section-title">
+					<span>Nos produits</span>
+					<h2>Collections de champagnes et de vins</h2>
+				</div>
+			</div>
+			<div class="product-wrap product-wraps owl-carousel owl-theme">
+				<div class="single-product">
+					<div class="product-img">
+						<img src="{{ absolute_url(asset('assets/images/champagnes/cuvee-2h.png')) }}" alt="Product">
+					</div>
+					<div class="product-details">
+						<a href="#">Vois les détails</a>
+						<h3>Cuvée 2h</h3>
+					</div>
+				</div>
+				<div class="single-product">
+					<div class="product-img">
+						<img src="{{ absolute_url(asset('assets/images/champagnes/cuvee-blanche-marie.png'))}}" alt="Product">
+					</div>
+					<div class="product-details">
+						<a href="#">Voir les détails</a>
+						<h3>Cuvée blanc de blanc</h3>
+					</div>
+				</div>
+				<div class="single-product">
+					<div class="product-img">
+						<img src="{{ absolute_url(asset('assets/images/champagnes/cuvee-rose.png'))}}" alt="Product">
+					</div>
+					<div class="product-details">
+						<a href="#">Voir les détails</a>
+						<h3>Cuvée rose</h3>
+					</div>
+				</div>
+				<div class="single-product">
+					<div class="product-img">
+						<img src="{{ absolute_url(asset('assets/images/champagnes/cuvee-selection-d-emile.png'))}}" alt="Product">
+					</div>
+					<div class="product-details">
+						<a href="#">Voir les détails</a>
+						<h3>Cuvée de selection</h3>
+					</div>
+				</div>
+				<div class="single-product">
+					<div class="product-img">
+						<img src="{{ absolute_url(asset('assets/images/champagnes/cuvee-reserve-de-theophile.png')) }}" alt="Product">
+					</div>
+					<div class="product-details">
+						<a href="#">Voir les détails</a>
+						<h3>Cuvée de reserve</h3>
+					</div>
+				</div>
+				<div class="single-product">
+					<div class="product-img">
+						<img src="{{ absolute_url(asset('assets/images/champagnes/cuvee-blanche-marie.png'))}}" alt="Product">
+					</div>
+					<div class="product-details">
+						<a href="#">Voir les détails</a>
+						<h3>Cuvée blanche mari</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog-area mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="section-title">
+					<h2>Bon à savoir</h2>
+					<span>Astuces & conseils</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="single-blog">
+						<div class="row align-items-center">
+							<div class="col-lg-12 col-xl-6 pr-0">
+								<div class="blog-img">
+									<a href="blog-details.html">
+										<img src="{{ absolute_url(asset('assets/images/blog/champagne-yves-louvet-historique.jpg'))}}" alt="Blog">
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-12 col-xl-6 pl-0">
+								<div class="blog-text">
+									<h3>
+										<a href="#">Champagne Yves Louvet</a>
+									</h3>
+									{% set resume1 = "Producteur de champagne de père en fils depuis plusieurs générations (bientôt la cinquième), le domaine Yves LOUVET a voulu et a su rester une entreprise familiale où l’on a acquis au fil des années et des générations le savoir-faire 'maison''." %}
+									<p>
+										{{ resume1|slice(0,50) }}...
+									</p>
+
+									<a class="read-more" href="#">
+										Lire la suite
+										<i class="flaticon-right-arrow"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="single-blog">
+						<div class="row align-items-center">
+							<div class="col-lg-12 col-xl-6 pr-0">
+								<div class="blog-img">
+									<a href="#">
+										<img src="{{ absolute_url(asset('assets/images/blog/01-VIN-SABLET.jpg'))}}" alt="Blog">
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-12 col-xl-6 pl-0">
+								<div class="blog-text">
+									<h3>
+										<a href="#">Les 10 bienfaits du vin</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									<a class="read-more" href="blog-details.html">
+										Lire la suite
+										<i class="flaticon-right-arrow"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+
+{% block style %}
+	<style>
+		.slider-item-bg-1 {
+			background-image: url({{ asset("assets/images/slider/slider_1.jpg") }});
+		}
+
+		.slider-item-bg-2 {
+			background-image: url({{ absolute_url(asset("assets/images/slider/slider_2.jpg")) }});
+		}
+
+		.slider-item-bg-3 {
+			background-image: url({{ absolute_url(asset("assets/images/slider/slider_3.jpg")) }});
+		}
+	</style>
+{% endblock %}

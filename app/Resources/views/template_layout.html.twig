@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Maison Luxoux Company</title>
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/bootstrap.min.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/owl.theme.default.min.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/owl.carousel.min.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/animate.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/flaticon.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/font-awesome.min.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/nice-select.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/magnific-popup.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/meanmenu.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/style.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/responsive.css')) }}">
+	<link rel="stylesheet" href="{{ absolute_url(asset('assets/css/maisonluxoux.css')) }}">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	{% block style %}{% endblock %}
+</head>
+
+<body>
+<!--
+<div class="preloader">
+	<div class="spinner">
+		<div class="double-bounce1"></div>
+		<div class="double-bounce2"></div>
+	</div>
+</div>
+-->
+<div class="navbar-area">
+	<div class="mobile-nav">
+		<a href="#" class="logo">
+			<img src="{{ absolute_url(asset('assets/images/logo_58.jpg')) }}" alt="La Maison Luxoux Company">
+		</a>
+	</div>
+
+	<div class="main-nav giano-nav-two">
+		<nav class="navbar navbar-expand-md navbar-light">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="{{ absolute_url(asset('assets/images/logo_58.jpg')) }}" alt="La Maison Luxoux Company">
+				</a>
+
+				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="#" class="nav-link active">Accueil</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">La Maison</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link dropdown-toggle">Nos produits</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item">
+									<a href="#" class="nav-link">Champagnes</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Vins</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Contact</a>
+						</li>
+						<li class="nav-item contact-number">
+							<a href="tel:+22551919165" class="nav-link">
+								<i class="fa fa-phone"></i>
+								+225 51 91 91 65 / 69 69 34 19
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+{% block body %}{% endblock %}
+<footer class="footer-top-area pt-100">
+	<div class="container">
+		<div class="row footer-wrapper">
+			<div class="col-lg-3 col-sm-6 col-md-6">
+				<div class="single-widget">
+					<a class="brand" href="#">
+						<img src="{{ absolute_url(asset('assets/images/logo-footer.png'))}}" alt="footer-logo">
+					</a>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  incididunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.Risus commodo.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-8 col-md-8">
+				<div class="single-widget single-widgets">
+					<h3>Champagnes</h3>
+					<ul>
+						<li>
+							<a href="#">Cuvée 2H</a>
+						</li>
+						<li>
+							<a href="#">Cuvée blanc de blanc</a>
+						</li>
+						<li>
+							<a href="#">Cuvée rosée</a>
+						</li>
+						<li>
+							<a href="#">Cuvée de selection</a>
+						</li>
+						<li>
+							<a href="#">Cuvée de réserve</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 col-md-6">
+				<div class="single-widget single-widgetss">
+					<h3>Vins</h3>
+					<ul>
+						<li>
+							<a href="#">Château du Tertre Rouge</a>
+						</li>
+						<li>
+							<a href="#">Château de Sablet</a>
+						</li>
+						<li>
+							<a href="#">Château du Tertre moelleux</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 col-md-6">
+				<div class="single-widget">
+					<h3>Contact</h3>
+					<ul>
+						<li class="address">
+							<i class="fa fa-map-marker"></i>
+							Cocody-Angré 7e tranche, Abidjan | Côte d'Ivoire
+						</li>
+						<li class="address">
+							<i class="fa fa-phone"></i>
+							<a href="tel:+22551919165">+225 51 91 91 65 / 69 69 34 19</a>
+						</li>
+						<li class="address">
+							<i class="fa fa-envelope"></i>
+							<a href="mailto:info@luxouxcompany.com">info@luxouxcompany.com</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container footer-bottom">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div>
+					<p>Copyright © 2019 <a href="http://www.luxouxcompany.com">La Maison Luxoux Company</a>. Tous droits réservés.</p>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<ul class="terms-conditions">
+					<li><a href="#">Backoffice</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="go-top">
+	<i class="fa fa-angle-double-up"></i>
+	<i class="fa fa-angle-double-up"></i>
+</div>
+
+<script src="{{ absolute_url(asset('assets/js/jquery-3.2.1.slim.min.js')) }}"></script>
+<script src="{{ absolute_url(asset('assets/js/popper.min.js')) }}"></script>
+<script src="{{ absolute_url(asset('assets/js/bootstrap.min.js')) }}"></script>
+<script src="{{ absolute_url(asset('assets/js/jquery.meanmenu.js')) }}"></script>
+<script src="{{ absolute_url(asset('assets/js/jquery.nice-select.min.js')) }}"></script>
+<script src="{{ absolute_url(asset('assets/js/wow.min.js')) }}"></script>
+<script src="{{ absolute_url(asset('assets/js/owl.carousel.js')) }}"></script>
+<script src="{{ absolute_url(asset('assets/js/jquery.magnific-popup.min.js')) }}"></script>
+<script src="{{ absolute_url(asset('assets/js/custom.js')) }}"></script>
+</body>
+<!-- #BC842F -->
+<!-- #EFBE44 -->
+</html>
